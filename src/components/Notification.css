@@ -1,0 +1,105 @@
+.notification-container {
+  position: fixed;
+  bottom: 30px; /* Slightly higher */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--card-bg); /* Assuming var(--card-bg) is light */
+  border-radius: 12px; /* Slightly more rounded */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  padding: 1.2rem 2rem; /* More padding */
+  z-index: 2000;
+  animation: slideInUp 0.6s ease-out; /* Smoother animation */
+  display: flex;
+  align-items: center;
+  gap: 18px; /* More space between icon and text */
+  min-width: 280px; /* Ensure a minimum width */
+  color: var(--text-color); /* Ensure text color is defined */
+}
+
+/* Specific styling for notification types */
+.notification-container.success {
+  border-left: 6px solid #28a745; /* Green border for success */
+}
+
+.notification-container.error {
+  border-left: 6px solid #dc3545; /* Red border for error */
+}
+
+.notification-container.sending {
+  border-left: 6px solid var(--primary-color); /* Primary color border for sending */
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow content to take available space */
+  justify-content: space-between;
+}
+
+.notification-container p {
+  margin: 0;
+  font-weight: 600; /* Bolder text */
+  font-size: 1.05rem; /* Slightly larger text */
+}
+
+/* Icon Styling */
+.icon {
+  font-size: 1.8rem; /* Larger icon size */
+}
+
+.success-icon {
+  color: #28a745;
+}
+
+.error-icon {
+  color: #dc3545;
+}
+
+.spinner-icon {
+  color: var(--primary-color);
+  animation: spin 1.2s linear infinite; /* Spin animation for sending */
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem; /* Larger close button */
+  color: #888; /* Softer color */
+  transition: color 0.3s ease;
+  margin-left: 10px; /* Ensure some space */
+}
+
+.close-btn:hover {
+  color: var(--primary-color);
+}
+
+/* Keyframe Animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 576px) {
+  .notification-container {
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    transform: translateX(0);
+    width: auto;
+    max-width: calc(100% - 20px);
+    padding: 1rem 1.2rem;
+  }
+}

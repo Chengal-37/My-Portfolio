@@ -1,0 +1,25 @@
+{
+  "short_name": "My Portfolio",
+  "name": "My Professional Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.jpeg",
+      "type": "image/jpeg",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/reacticon192.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/reacticon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

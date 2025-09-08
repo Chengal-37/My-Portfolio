@@ -1,0 +1,19 @@
+.resume {
+  text-align: center;
+}
+
+.resume-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.resume-content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: var(--secondary-color);
+}
+
+.resume-content .btn {
+  margin-top: 20px;
+  font-size: 1rem;
+}

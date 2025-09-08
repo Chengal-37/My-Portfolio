@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes up at least the full viewport height */
+}
+
+main {
+  flex-grow: 1; /* Pushes the footer to the bottom */
+}
+
+/* Section styling with a subtle background variation */
+.section:nth-child(odd) {
+  background-color: var(--background-color);
+}
+
+.section:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+}

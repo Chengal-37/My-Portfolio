@@ -1,0 +1,56 @@
+.contact {
+  text-align: center;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--card-bg);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--heading-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  /* Add a clear, visible color for the text */
+  color: var(--primary-color);
+}
