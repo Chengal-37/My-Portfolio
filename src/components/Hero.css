@@ -1,10 +1,11 @@
 .hero {
-  height: 100vh;
+  min-height: 100vh; /* Use min-height to ensure content fits */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #f0f2f5;
+  padding-top: 80px; /* Increased padding to prevent overlap */
 }
 
 .hero .container {
@@ -53,24 +54,23 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive adjustments */
-@media (max-width: 992px) {
+/* * This media query handles all mobile and tablet layouts.
+ * It's a cleaner approach than using multiple breakpoints.
+ */
+@media (max-width: 768px) {
   .hero .container {
-    flex-direction: column;
+    flex-direction: column; /* Stacks content vertically */
     text-align: center;
     gap: 2rem;
   }
-
   .text-content {
-    order: 2; /* Puts the text below the image on small screens */
+    order: 2; /* Puts the text below the image */
   }
-
   .image-content {
-    order: 1; /* Puts the image at the top on small screens */
+    order: 1; /* Puts the image at the top */
   }
-}
 
-@media (max-width: 576px) {
+  /* Adjustments for fonts and image size */
   .hero h1 {
     font-size: 2.5rem;
   }
@@ -78,7 +78,7 @@
     font-size: 1.5rem;
   }
   .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 }

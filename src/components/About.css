@@ -1,18 +1,55 @@
 .about {
   text-align: center;
+  padding: 80px 0;
 }
 
+/* Default styles for desktop and larger screens */
 .about-content {
-  max-width: 800px;
+  display: flex;
+  justify-content: center; /* Center the content within the max-width */
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.about-content p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  line-height: 1.8;
+/* Style for the image */
+.about-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.about-content .btn {
+/* Style for the text content */
+.about-text {
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-text .btn {
   margin-top: 30px;
+}
+
+/*
+* Responsive adjustments for mobile screens
+* This rule will override the default desktop styles
+* only when the screen is 768px or smaller.
+*/
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Stacks the content vertically on mobile */
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    text-align: center;
+  }
 }
