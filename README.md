@@ -59,13 +59,13 @@ A clean, modern, and responsive portfolio website built with React. This project
 ## 🌐 Live Demo
 
 You can view a live version of the project here:
-**[https://[Your-Vercel-URL].vercel.app]**
+**https://my-portfolio-ruddy-beta-17.vercel.app/**
 
 ---
 
 ## ✍️ Author
 
-**[Chengalarayulu]** - [Your-Website-Link] - [chengalchinthakayala3@gmail.com]
+**[Chengalarayulu]** - [https://my-portfolio-ruddy-beta-17.vercel.app/] - [chengalchinthakayala3@gmail.com]
 
 * **GitHub:** https://github.com/Chengal-37
 
