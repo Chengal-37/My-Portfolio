@@ -8,7 +8,7 @@ const Projects = () => {
 
   useEffect(() => {
     // Fetch data from the backend API
-    fetch('http://localhost:5000/api/projects')
+    fetch('https://my-portfolio-backend-zu90.onrender.com')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
