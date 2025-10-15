@@ -4,7 +4,7 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* Show 2 cards per row */
   gap: 40px;
   margin-top: 50px;
 }
@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 480px; /* base height, expands if needed */
+  height: auto;
 }
 
 .project-card:hover {
@@ -26,13 +28,14 @@
 
 .project-image {
   width: 100%;
-  height: 200px; /* Or a fixed height that fits your design */
-  object-fit: contain; /* This is the key property */
+  height: 220px; /* increase height slightly for better visibility */
+  object-fit: contain; /* ensures the whole image is visible */
   border-radius: 8px 8px 0 0;
+  background-color: #fff; /* optional: prevents transparent edges */
 }
 
 .project-content {
-  padding: 25px;
+  padding: 20px 25px;
   text-align: left;
   flex-grow: 1;
   display: flex;
@@ -40,21 +43,22 @@
 }
 
 .project-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
 }
 
 .project-content p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--secondary-color);
   flex-grow: 1;
+  line-height: 1.5;
 }
 
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 
 .tech-badge {
@@ -69,15 +73,26 @@
 .project-links {
   display: flex;
   gap: 15px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .project-links .btn {
   flex-grow: 1;
 }
 
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Keeps 2 cards for most screens */
+  }
+}
+
 @media (max-width: 768px) {
   .projects-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 1 card per row on mobile */
+  }
+
+  .project-card {
+    height: auto; /* Let height adjust naturally on mobile */
   }
 }

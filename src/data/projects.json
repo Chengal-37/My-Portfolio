@@ -1,26 +1,36 @@
 [
   {
     "id": 1,
-    "title": "Real-Time Chat Application",
-    "description": "Built a secure real-time chat platform with user authentication, private messaging, and chat room functionality. Implemented WebSockets for live communication, Spring Boot for backend APIs, and MySQL for data storage, ensuring scalability and data security.",
-    "image": "/assets/images/project1.jpg",
-    "githubLink": "https://github.com/Chengal-37/EazyByts",
-    "techStack": ["Java", "HTML", "CSS", "JavaScript", "Spring Boot", "Web Sockets", "MySQL", "JWT", "REST APIs", "Spring Security", "Maven"]
+    "title": "Soundwave – Spotify Redesign",
+    "description": "Designed and developed a modern Spotify redesign called Soundwave using Next.js and TypeScript. Integrated Firebase for backend services and used Adobe Firefly to generate creative UI elements. Focused on clean design, smooth navigation, and real-time user interaction.",
+    "image": "/assets/images/project1.png",
+    "liveLink": "https://soundwave-five-gules.vercel.app/",
+    "githubLink": "https://github.com/Chengal-37/Soundwave",
+    "techStack": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Firebase", "Adobe Firefly", "Vercel", "Music API Integration"]
   },
   {
     "id": 2,
-    "title": "Stock Trading Simulation System",
-    "description": "Developed a stock trading simulator allowing users to practice trading, manage portfolios, and track performance. Designed frontend with HTML, CSS, and JavaScript, backend with Spring Boot, and integrated databases like MySQL. Enhanced realism with external stock market data integration.",
-    "image": "/assets/images/project2.jpg",
-    "githubLink": "https://github.com/Chengal-37/EazyByts-Module2",
-    "techStack": ["Java", "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL", "BootStrap", "Stock APIs", "Maven", "API Integration", "Stock Data"]
+    "title": "Mini E-Commerce Website",
+    "description": "Developed a full-stack e-commerce platform featuring product listing, cart management, and checkout functionality. Implemented user authentication, order tracking, and a responsive UI using React Context API. Used PostgreSQL for data storage and deployed the project on Vercel and Render.",
+    "image": "/assets/images/project2.png",
+    "liveLink": "https://mini-ecommerce-nine-mu.vercel.app/",
+    "githubLink": "https://github.com/Chengal-37/mini-ecommerce",
+    "techStack": ["React.js", "Node.js", "Express.js", "JavaScript", "PostgreSQL", "Bootstrap", "Vercel", "Context API", "REST APIs"]
   },
   {
     "id": 3,
+    "title": "Stock Trading Simulation System",
+    "description": "Developed a stock trading simulator allowing users to practice trading, manage portfolios, and track performance. Designed frontend with HTML, CSS, and JavaScript, backend with Spring Boot, and integrated databases like MySQL. Enhanced realism with external stock market data integration.",
+    "image": "/assets/images/project3.jpg",
+    "githubLink": "https://github.com/Chengal-37/EazyByts-Module2",
+    "techStack": ["Java", "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL", "BootStrap", "Stock APIs", "Maven", "API Integration"]
+  },
+  {
+    "id": 4,
     "title": "News Aggregator Website",
     "description": "Created a centralized platform to display news from multiple sources. Implemented frontend with HTML, CSS, JavaScript, backend with Spring Boot, and MySQL for data handling. Added features like news categorization, personalized feeds, and real-time updates via APIs.",
-    "image": "/assets/images/project3.jpg",
+    "image": "/assets/images/project4.jpg",
     "githubLink": "https://github.com/Chengal-37/EazyByts-Final-Project",
-    "techStack": ["Java", "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL", "Tailwind CSS", "RSS Feeds", "News APIs", "Social Media APIs"]
+    "techStack": ["Java", "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL", "Tailwind CSS", "RSS Feeds", "News APIs"]
   }
 ]

@@ -11,13 +11,13 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello again! I'm an enthusiastic and detail-oriented Full Stack Web Developer Intern with a solid foundation in front-end and back-end technologies. I'm currently expanding my skills at Future Interns, where I'm gaining practical experience in building and deploying real-world applications.
+              Hello! I'm Chengalarayulu Chinthakayala, a detail-oriented Full Stack Java & Web Developer with hands-on experience building scalable and user-centric applications. Through internships at Future Interns and EazyByts, I have developed real-world projects like chat applications, stock simulators, news aggregators, and e-commerce platforms using technologies such as Java, Spring Boot, React.js, Node.js, MySQL, PostgreSQL, and cloud platforms.
             </p>
             <p>
-              My journey into tech began with a curiosity for how things work on the web, which quickly grew into a passion for building them myself. I enjoy the entire process, from conceptualizing a design to writing clean, efficient code and seeing a project come to life.
+              My journey into technology began with curiosity about how web applications work, which evolved into a passion for building them. I enjoy the entire development process — from designing intuitive interfaces to writing clean, efficient backend code — and seeing ideas come to life in functional applications.
             </p>
             <p>
-              Beyond coding, I'm a lifelong learner. I enjoy keeping up with the latest trends in technology, and I'm always looking for new challenges to improve my skills. When I'm not at my keyboard, you might find me hiking, reading, or exploring new cities.
+              Beyond coding, I am a lifelong learner, constantly exploring new technologies, APIs, and tools to enhance my skill set. When not developing, I enjoy reading, exploring new places, and taking on challenges that push me to grow both personally and professionally.
             </p>
             <a href="/assets/resume.pdf" download="Chengalarayulu_Resume.pdf" className="btn btn-primary">Download My Resume</a>
           </div>

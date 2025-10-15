@@ -8,9 +8,9 @@ const Hero = () => {
         <div className="text-content">
           <p className="intro">Hello, my name is</p>
           <h1>Chengalarayulu Chinthakayala</h1>
-          <h3>Full Stack Developer | Java | Spring Boot | React.js | MySQL | Python | Cloud</h3>
+          <h3>Full Stack Java & Web Developer | Java | Spring Boot | React.js | Node.js | MySQL | PostgreSQL | Python | Cloud | API Integration</h3>
           <p className="bio">
-            I’m a B.Tech graduate and passionate software developer with hands-on experience through internships, building scalable web applications and solving real-world problems. Skilled in Java, Spring Boot, React.js, MySQL, and cloud technologies, I aim to create impactful solutions while continuously learning and growing.
+            I’m a detail-oriented B.Tech graduate and passionate full stack developer with hands-on experience through internships. I build scalable, secure, and user-centric web applications, integrating frontend and backend technologies like Java, Spring Boot, React.js, Node.js, MySQL, PostgreSQL, Python, and cloud platforms. I thrive on solving complex challenges and delivering practical solutions, continuously learning and contributing effectively to dynamic development teams.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>

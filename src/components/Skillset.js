@@ -4,31 +4,35 @@ import './Skillset.css';
 const skills = [
   {
     category: 'Programming Languages',
-    list: ['Java', 'Python', 'JavaScript']
+    list: ['Java', 'JavaScript', 'Python', 'TypeScript']
   },
   {
     category: 'Core Concepts',
-    list: ['Data Structures & Alogrithms', 'OOPs Concepts']
+    list: ['Data Structures & Algorithms', 'OOP Concepts', 'API Integration']
   },
   {
     category: 'Frontend',
-    list: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'BootStrap', 'Tailwind CSS']
+    list: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Bootstrap', 'Tailwind CSS', 'Next.js']
   },
   {
     category: 'Backend',
-    list: ['Spring Boot', 'Hibernate', 'JDBC', 'JSP', 'Node.js', 'RESTful APIs']
+    list: ['Spring Boot', 'Node.js', 'Hibernate', 'REST APIs', 'Express.js']
   },
   {
     category: 'Databases',
-    list: ['SQL', 'MySQL', 'MySQL WorkBench', 'PostgreSQL']
+    list: ['SQL', 'PostgreSQL', 'MySQL', 'Firebase', 'MySQL Workbench', 'PGAdmin']
   },
   {
-    category: 'Cloud Computing',
-    list: ['Microsoft Azure', 'AWS', 'GCP', 'Linux', 'Containers', 'Cloud Services']
+    category: 'Cloud & DevOps',
+    list: ['Microsoft Azure Fundamentals', 'AWS Cloud Practitioner', 'Containers', 'Linux']
   },
   {
-    category: 'Platforms & Tools',
-    list: ['Microsoft Visual Studio', 'Eclipse IDE', 'GitHub', 'Git', 'Postman', 'Maven', 'MS Excel']
+    category: 'Tools',
+    list: ['Visual Studio', 'Git','Eclipse IDE', 'GitHub', 'Postman', 'Maven', 'Excel', 'Adobe Firefly']
+  },
+  {
+    category: 'Platforms',
+    list: ['Vercel', 'Render', 'Firebase Studio', 'GitHub Pages']
   }
 ];
 
